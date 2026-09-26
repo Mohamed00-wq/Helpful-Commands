@@ -1,150 +1,323 @@
-# 📈 Auto Scaling Groups (ASG)
+# ASG (Auto Scaling Groups)
 
-> Essential ASG CLI commands for managing auto scaling groups, launch configurations, and scaling policies — compiled while studying for AWS SAA-C03.
+> Commands for launch templates, auto scaling groups, scaling policies, and
+> scheduled actions.
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![CLI](https://img.shields.io/badge/AWS-CLI-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+Auto scaling groups launch instances from a **launch template**. Launch
+configurations are deprecated: accounts created on or after 1 October 2024
+cannot create one by any method, including the CLI.
 
----
+## Launch Templates
+
+### To create a launch template
+
+The following example creates a launch template version that an auto scaling
+group can launch instances from.
+
+```bash
+aws ec2 create-launch-template
+    --launch-template-name my-lt
+    --launch-template-data '{"ImageId":"ami-0123456789abcdef0","InstanceType":"t3.micro","KeyName":"my-key","SecurityGroupIds":["sg-0123456789abcdef0"]}'
+```
+
+### To create a launch template version
+
+The following example publishes a new version of an existing launch template
+without changing the default version.
+
+```bash
+aws ec2 create-launch-template-version
+    --launch-template-name my-lt
+    --launch-template-data '{"InstanceType":"t3.small"}'
+    --version-description "upgraded instance type"
+```
+
+### To set a launch template version as the default
+
+The following example marks a specific version as the default for new launches.
+
+```bash
+aws ec2 modify-launch-template
+    --launch-template-name my-lt
+    --set-default-version 2
+```
+
+### To list launch templates
+
+The following example lists every launch template in the account.
+
+```bash
+aws ec2 describe-launch-templates
+```
+
+### To get launch template versions
+
+The following example lists the versions of a launch template and which one is
+the default.
+
+```bash
+aws ec2 describe-launch-template-versions --launch-template-name my-lt
+```
+
+### To get a launch template version
+
+The following example retrieves one version, including the instance data that
+an auto scaling group will use.
+
+```bash
+aws ec2 describe-launch-template-versions
+    --launch-template-name my-lt
+    --versions 1
+```
+
+### To delete a launch template
+
+The following example deletes a launch template. It fails if the template is
+still referenced by an auto scaling group.
+
+```bash
+aws ec2 delete-launch-template --launch-template-name my-lt
+```
 
 ## Auto Scaling Groups
 
-| Command | Description |
-|---|---|
-| `aws autoscaling describe-auto-scaling-groups` | List all ASGs |
-| `aws autoscaling describe-auto-scaling-groups --auto-scaling-group-name my-asg` | Get details for a specific ASG |
-| `aws autoscaling create-auto-scaling-group --auto-scaling-group-name my-asg --launch-configuration-name my-lc --min-size 1 --max-size 4 --desired-capacity 2 --vpc-zone-identifier "subnet-xxxxxxxx"` | Create an ASG |
-| `aws autoscaling update-auto-scaling-group --auto-scaling-group-name my-asg --min-size 2 --max-size 6 --desired-capacity 3` | Update ASG capacity |
-| `aws autoscaling delete-auto-scaling-group --auto-scaling-group-name my-asg` | Delete an ASG |
-| `aws autoscaling delete-auto-scaling-group --auto-scaling-group-name my-asg --force-delete` | Force delete an ASG (with instances) |
-| `aws autoscaling suspend-processes --auto-scaling-group-name my-asg` | Suspend all scaling processes |
-| `aws autoscaling resume-processes --auto-scaling-group-name my-asg` | Resume suspended processes |
-| `aws autoscaling describe-scaling-activities --auto-scaling-group-name my-asg` | View scaling activity history |
-| `aws autoscaling describe-auto-scaling-groups --auto-scaling-group-name my-asg --query "AutoScalingGroups[0].Instances"` | List instances in an ASG |
+### To list all ASGs
+
+### To get details for a specific ASG
+
+The following example gets details for a specific auto scaling group.
+
+```bash
+aws autoscaling describe-auto-scaling-groups --auto-scaling-group-name my-asg
+```
+
+### To create an ASG
+
+The following example creates an auto scaling group from a launch template and
+spreads it across two subnets.
+
+```bash
+aws autoscaling create-auto-scaling-group
+    --auto-scaling-group-name my-asg
+    --launch-template LaunchTemplateName=my-lt,Version="$LATEST"
+    --min-size 1
+    --max-size 4
+    --desired-capacity 2
+    --vpc-zone-identifier "subnet-0123456789abcdef0,subnet-0123456789abcdef1"
+```
+
+### To update ASG capacity
+
+The following example updates the size bounds and desired capacity of an auto
+scaling group.
+
+```bash
+aws autoscaling update-auto-scaling-group
+    --auto-scaling-group-name my-asg
+    --min-size 2
+    --max-size 6
+    --desired-capacity 3
+```
+
+### To delete an ASG
+
+The following example deletes an auto scaling group. The group must have a
+desired capacity of 0 first, otherwise the call fails.
+
+```bash
+aws autoscaling delete-auto-scaling-group --auto-scaling-group-name my-asg
+```
+
+### To force delete an ASG (with instances)
+
+The following example deletes an auto scaling group and terminates its
+instances in one call.
+
+```bash
+aws autoscaling delete-auto-scaling-group --auto-scaling-group-name my-asg --force-delete
+```
+
+### To suspend all scaling processes
+
+The following example suspends every scaling process, which is useful before
+making a manual change that would otherwise be reverted by a scaling policy.
+
+```bash
+aws autoscaling suspend-processes --auto-scaling-group-name my-asg
+```
+
+### To resume suspended processes
+
+The following example resumes scaling processes suspended earlier.
+
+```bash
+aws autoscaling resume-processes --auto-scaling-group-name my-asg
+```
+
+### To view scaling activity history
+
+The following example lists the scaling activities the group has performed,
+newest first.
+
+```bash
+aws autoscaling describe-scaling-activities --auto-scaling-group-name my-asg
+```
+
+### To list instances in an ASG
+
+The following example lists the instances currently in the group.
 
 ```bash
 aws autoscaling describe-auto-scaling-groups
-aws autoscaling describe-auto-scaling-groups --auto-scaling-group-name my-asg
-aws autoscaling create-auto-scaling-group \
-  --auto-scaling-group-name my-asg \
-  --launch-configuration-name my-lc \
-  --min-size 1 --max-size 4 --desired-capacity 2 \
-  --vpc-zone-identifier "subnet-xxxxxxxx"
-aws autoscaling update-auto-scaling-group \
-  --auto-scaling-group-name my-asg \
-  --min-size 2 --max-size 6 --desired-capacity 3
-aws autoscaling delete-auto-scaling-group --auto-scaling-group-name my-asg
-aws autoscaling delete-auto-scaling-group --auto-scaling-group-name my-asg --force-delete
-aws autoscaling suspend-processes --auto-scaling-group-name my-asg
-aws autoscaling resume-processes --auto-scaling-group-name my-asg
-aws autoscaling describe-scaling-activities --auto-scaling-group-name my-asg
-aws autoscaling describe-auto-scaling-groups \
-  --auto-scaling-group-name my-asg \
-  --query "AutoScalingGroups[0].Instances"
+    --auto-scaling-group-name my-asg
+    --query "AutoScalingGroups[0].Instances"
 ```
 
----
+## Legacy Launch Configurations
 
-## Launch Configurations
+Launch configurations are deprecated. They are documented here only so you can
+inspect an existing group that still uses one. New groups must use a launch
+template.
 
-| Command | Description |
-|---|---|
-| `aws autoscaling describe-launch-configurations` | List all launch configurations |
-| `aws autoscaling describe-launch-configurations --launch-configuration-names my-lc` | Get details for a specific LC |
-| `aws autoscaling create-launch-configuration --launch-configuration-name my-lc --image-id ami-xxxxxxxx --instance-type t2.micro --key-name my-key --security-groups sg-xxxxxxxx` | Create a launch configuration |
-| `aws autoscaling delete-launch-configuration --launch-configuration-name my-lc` | Delete a launch configuration |
+- Accounts created on or after 1 January 2023 cannot use new EC2 instance types
+  in a launch configuration.
+- Accounts created on or after 1 June 2023 cannot create launch configurations
+  in the console.
+- Accounts created on or after 1 October 2024 cannot create launch
+  configurations at all, including through the CLI.
+
+### To list existing launch configurations
+
+The following example lists launch configurations still present in the account.
 
 ```bash
 aws autoscaling describe-launch-configurations
-aws autoscaling create-launch-configuration \
-  --launch-configuration-name my-lc \
-  --image-id ami-xxxxxxxx \
-  --instance-type t2.micro \
-  --key-name my-key \
-  --security-groups sg-xxxxxxxx
+```
+
+### To find groups still using a launch configuration
+
+The following example lists the auto scaling groups that still reference a
+launch configuration instead of a launch template, so you know what needs
+migrating.
+
+```bash
+aws autoscaling describe-auto-scaling-groups \
+    --query "AutoScalingGroups[?LaunchConfigurationName!=`null`].[AutoScalingGroupName,LaunchConfigurationName]"
+```
+
+### To delete a launch configuration
+
+The following example deletes a launch configuration once no group references
+it.
+
+```bash
 aws autoscaling delete-launch-configuration --launch-configuration-name my-lc
 ```
 
----
-
 ## Scaling Policies
 
-| Command | Description |
-|---|---|
-| `aws autoscaling put-scaling-policy --auto-scaling-group-name my-asg --policy-name scale-out --policy-type TargetTrackingScaling --target-tracking-configuration "PredefinedMetricSpecification={PredefinedMetricType=ASGAverageCPUUtilization},TargetValue=70.0"` | Create a target tracking policy (CPU) |
-| `aws autoscaling put-scaling-policy --auto-scaling-group-name my-asg --policy-name scale-out --policy-type StepScaling --adjustment-type ChangeInCapacity --step-adjustments "Magnitude=1"` | Create a step scaling policy |
-| `aws autoscaling put-scaling-policy --auto-scaling-group-name my-asg --policy-name scale-out --policy-type SimpleScaling --adjustment-type ChangeInCapacity --scaling-adjustment 1` | Create a simple scaling policy |
-| `aws autoscaling describe-policies --auto-scaling-group-name my-asg` | List scaling policies for an ASG |
-| `aws autoscaling delete-policy --auto-scaling-group-name my-asg --policy-name scale-out` | Delete a scaling policy |
+### To create a target tracking policy (CPU)
+
+The following example creates a target tracking policy (CPU).
 
 ```bash
-# Target tracking (most common)
-aws autoscaling put-scaling-policy \
-  --auto-scaling-group-name my-asg \
-  --policy-name scale-out \
-  --policy-type TargetTrackingScaling \
-  --target-tracking-configuration "PredefinedMetricSpecification={PredefinedMetricType=ASGAverageCPUUtilization},TargetValue=70.0"
+aws autoscaling put-scaling-policy
+    --auto-scaling-group-name my-asg
+    --policy-name scale-out
+    --policy-type TargetTrackingScaling
+    --target-tracking-configuration "PredefinedMetricSpecification={PredefinedMetricType=ASGAverageCPUUtilization},TargetValue=70.0"
+```
 
-# Step scaling
-aws autoscaling put-scaling-policy \
-  --auto-scaling-group-name my-asg \
-  --policy-name scale-out \
-  --policy-type StepScaling \
-  --adjustment-type ChangeInCapacity \
-  --step-adjustments "Magnitude=1"
+### To create a step scaling policy
 
-# Simple scaling
-aws autoscaling put-scaling-policy \
-  --auto-scaling-group-name my-asg \
-  --policy-name scale-out \
-  --policy-type SimpleScaling \
-  --adjustment-type ChangeInCapacity \
-  --scaling-adjustment 1
+The following example creates a step scaling policy.
 
-# List & delete
+```bash
+aws autoscaling put-scaling-policy
+    --auto-scaling-group-name my-asg
+    --policy-name scale-out
+    --policy-type StepScaling
+    --adjustment-type ChangeInCapacity
+    --step-adjustments "Magnitude=1"
+```
+
+### To create a simple scaling policy
+
+The following example creates a simple scaling policy.
+
+```bash
+aws autoscaling put-scaling-policy
+    --auto-scaling-group-name my-asg
+    --policy-name scale-out
+    --policy-type SimpleScaling
+    --adjustment-type ChangeInCapacity
+    --scaling-adjustment 1
+```
+
+### To list scaling policies for an ASG
+
+The following example lists scaling policies for an ASG.
+
+```bash
 aws autoscaling describe-policies --auto-scaling-group-name my-asg
+```
+
+### To delete a scaling policy
+
+The following example deletes a scaling policy.
+
+```bash
 aws autoscaling delete-policy --auto-scaling-group-name my-asg --policy-name scale-out
 ```
 
----
-
 ## Scheduled Actions
 
-| Command | Description |
-|---|---|
-| `aws autoscaling put-scheduled-update-group-action --auto-scaling-group-name my-asg --scheduled-action-name scale-up-morning --recurrence "0 8 * * *" --min-size 4 --max-size 8 --desired-capacity 5` | Schedule a scaling action |
-| `aws autoscaling describe-scheduled-actions --auto-scaling-group-name my-asg` | List scheduled actions |
-| `aws autoscaling delete-scheduled-action --auto-scaling-group-name my-asg --scheduled-action-name scale-up-morning` | Delete a scheduled action |
+### To schedule a scaling action
+
+The following example schedules a scaling action.
 
 ```bash
-aws autoscaling put-scheduled-update-group-action \
-  --auto-scaling-group-name my-asg \
-  --scheduled-action-name scale-up-morning \
-  --recurrence "0 8 * * *" \
-  --min-size 4 --max-size 8 --desired-capacity 5
-aws autoscaling describe-scheduled-actions --auto-scaling-group-name my-asg
-aws autoscaling delete-scheduled-action \
-  --auto-scaling-group-name my-asg \
-  --scheduled-action-name scale-up-morning
+aws autoscaling put-scheduled-update-group-action
+    --auto-scaling-group-name my-asg
+    --scheduled-action-name scale-up-morning
+    --recurrence "0 8 * * *"
+    --min-size 4
+    --max-size 8
+    --desired-capacity 5
 ```
 
----
+### To list scheduled actions
+
+The following example lists scheduled actions.
+
+```bash
+aws autoscaling describe-scheduled-actions --auto-scaling-group-name my-asg
+```
+
+### To delete a scheduled action
+
+The following example deletes a scheduled action.
+
+```bash
+aws autoscaling delete-scheduled-action
+    --auto-scaling-group-name my-asg
+    --scheduled-action-name scale-up-morning
+```
 
 ## Instance Refresh
 
-| Command | Description |
-|---|---|
-| `aws autoscaling start-instance-refresh --auto-scaling-group-name my-asg` | Start an instance refresh (rolling update) |
-| `aws autoscaling describe-instance-refreshes --auto-scaling-group-name my-asg` | Check instance refresh status |
+### To start an instance refresh (rolling update)
+
+The following example starts an instance refresh (rolling update).
 
 ```bash
 aws autoscaling start-instance-refresh --auto-scaling-group-name my-asg
-aws autoscaling describe-instance-refreshes --auto-scaling-group-name my-asg
 ```
 
----
+### To check instance refresh status
 
-## 📄 License
+The following example checks instance refresh status.
 
-Feel free to use, modify, and share this cheatsheet.
+```bash
+aws autoscaling describe-instance-refreshes --auto-scaling-group-name my-asg
+```
