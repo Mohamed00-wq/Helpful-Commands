@@ -117,8 +117,8 @@ aws lambda invoke --function-name <function> --payload '{}' out.json
 
 See [TEMPLATE.md](TEMPLATE.md) for the file structure and
 [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow. Run
-`npx markdownlint-cli2 "**/*.md"` before opening a pull request.
 
+Before committing changes, run Markdown linting to check the documentation.
 ## License
 
 MIT. See [LICENSE](LICENSE).

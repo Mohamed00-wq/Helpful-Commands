@@ -48,42 +48,6 @@ below in detail. The short version:
   cleanly. Tabular reference data, such as the EBS volume type comparison, is
   fine because it is data and not commands.
 
-## Checking your work
-
-```bash
-# Lint every markdown file
-npx markdownlint-cli2 "**/*.md"
-
-# Confirm no example repeats a command verbatim across a service's topic files.
-# The same subcommand with different flags is fine and expected.
-# Workflows are excluded: a workflow repeats commands from the topic files it
-# chains, on purpose, so it can be run top to bottom.
-awk '
-  /^```bash/ { f = !f; next }
-  f {
-    line = $0
-    if (line ~ /\\[[:space:]]*$/) {
-      sub(/\\[[:space:]]*$/, "", line)
-      buf = buf line " "
-      next
-    }
-    print buf line
-    buf = ""
-  }
-  END { if (buf != "") print buf }
-' AWS/<SERVICE>/*.md \
-  | tr -s ' ' | sed 's/^ //; s/ $//' \
-  | grep -E '^aws ' | sort | uniq -d
-```
-
-That should print nothing. A non-empty result means the same command appears in
-two examples, which means one of them should be removed. The `awk` joins
-`\` continuation lines into one logical command before comparing, otherwise
-every wrapped command looks like a duplicate of itself.
-
-The last command should print nothing. A non-empty result means the same
-command appears in two examples, which means one of them should be removed.
-
 ## Commit messages
 
 Describe the change, for example `Replace launch configurations with launch
