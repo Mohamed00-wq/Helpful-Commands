@@ -48,6 +48,36 @@ one command per example, a short description, and a copy-pasteable code block.
 | **Cost** | | |
 | Cost Explorer | [CostExplorer.md](AWS/CostExplorer.md) | Cost and usage, dimensions, forecasts, Savings Plans recommendations |
 
+Each `AWS/<SERVICE>.md` file is an **index**, not the command reference itself.
+It holds the H1 title, the service summary, a link to every topic file, and any
+multi-step `## Workflows` procedure. The commands live one section per file in
+`AWS/<SERVICE>/`, so
+[`AWS/DynamoDB/query-and-scan.md`](AWS/DynamoDB/query-and-scan.md) holds the
+`query` and `scan` examples and nothing else. Topic filenames are the section
+name lowercased, with punctuation and parentheses replaced by hyphens.
+
+## Finding a command
+
+Because each topic file covers exactly one resource group, a search returns far
+less noise than it would against a single 900-line file.
+
+```bash
+# List every topic file
+ls AWS/*/
+
+# Search every command, description, and heading
+grep -rn 'put-item' AWS/
+
+# Search within one service
+grep -rn 'condition' AWS/DynamoDB/
+
+# Find which files mention a flag
+grep -rln -- '--deletion-protection' AWS/
+
+# Start from a service index
+less AWS/S3.md
+```
+
 ## Quick start
 
 ```bash
@@ -78,7 +108,10 @@ aws lambda invoke --function-name <function> --payload '{}' out.json
   Where it does not, the file documents the real guard instead.
 - List operations that can truncate show pagination flags.
 - Placeholders are written in angle brackets: `s3://<bucket>`, `--instance-ids <id>`.
-- Multi-step procedures live in a `## Workflows` section at the end of the file.
+- Multi-step procedures live in a `## Workflows` section at the end of the
+  service index file, because they chain commands from several topic files.
+- A topic file covers one resource group only, so it stays short enough to scan
+  and a search for a command does not return the whole service.
 
 ## Contributing
 
