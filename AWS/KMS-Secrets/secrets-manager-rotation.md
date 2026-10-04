@@ -1,6 +1,6 @@
 # Secrets Manager Rotation
 
-> Secrets Manager Rotation. Part of the [KMS-Secrets](../KMS-Secrets.md) cheatsheet.
+> Secrets Manager Rotation. Part of the [KMS-Secrets](../) cheatsheet.
 
 ## To get rotation config
 

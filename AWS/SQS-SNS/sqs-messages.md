@@ -1,6 +1,6 @@
 # SQS Messages
 
-> SQS Messages. Part of the [SQS-SNS](../SQS-SNS.md) cheatsheet.
+> SQS Messages. Part of the [SQS-SNS](../) cheatsheet.
 
 ## To send a message
 

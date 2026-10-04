@@ -1,6 +1,6 @@
 # Subscription Filters
 
-> Subscription Filters. Part of the [CloudWatch](../CloudWatch.md) cheatsheet.
+> Subscription Filters. Part of the [CloudWatch](../) cheatsheet.
 
 ## To subscribe to log events
 

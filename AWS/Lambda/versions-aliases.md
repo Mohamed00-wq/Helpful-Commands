@@ -1,6 +1,6 @@
 # Versions & Aliases
 
-> Versions & Aliases. Part of the [Lambda](../Lambda.md) cheatsheet.
+> Versions & Aliases. Part of the [Lambda](../) cheatsheet.
 
 ## To list all versions
 

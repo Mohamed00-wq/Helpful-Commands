@@ -1,6 +1,6 @@
 # Real-Time Logs
 
-> Real-Time Logs. Part of the [CloudFront](../CloudFront.md) cheatsheet.
+> Real-Time Logs. Part of the [CloudFront](../) cheatsheet.
 
 ## To list distribution IDs
 

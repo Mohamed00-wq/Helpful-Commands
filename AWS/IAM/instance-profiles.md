@@ -1,6 +1,6 @@
 # Instance Profiles
 
-> Instance Profiles. Part of the [IAM](../IAM.md) cheatsheet.
+> Instance Profiles. Part of the [IAM](../) cheatsheet.
 
 ## To list instance profiles
 

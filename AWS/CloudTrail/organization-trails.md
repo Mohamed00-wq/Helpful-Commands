@@ -1,6 +1,6 @@
 # Organization Trails
 
-> Organization Trails. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> Organization Trails. Part of the [CloudTrail](../) cheatsheet.
 
 An organization trail is created in the management account or in a delegated
 administrator account and collects events from every member account.

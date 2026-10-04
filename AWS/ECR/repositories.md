@@ -1,6 +1,6 @@
 # Repositories
 
-> Repositories. Part of the [ECR](../ECR.md) cheatsheet.
+> Repositories. Part of the [ECR](../) cheatsheet.
 
 ## To create a repository
 

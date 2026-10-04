@@ -1,6 +1,6 @@
 # Encryption
 
-> Encryption. Part of the [S3](../S3.md) cheatsheet.
+> Encryption. Part of the [S3](../) cheatsheet.
 
 ## To check the default encryption
 

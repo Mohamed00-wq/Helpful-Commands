@@ -1,6 +1,6 @@
 # CloudTrail Lake
 
-> CloudTrail Lake. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> CloudTrail Lake. Part of the [CloudTrail](../) cheatsheet.
 
 An event data store is the queryable, managed copy of a trail. It costs per
 day of retention rather than per gigabyte stored, and the console runs SQL

@@ -1,6 +1,6 @@
 # Access Control
 
-> Access Control. Part of the [S3](../S3.md) cheatsheet.
+> Access Control. Part of the [S3](../) cheatsheet.
 
 ## To check the public access block
 

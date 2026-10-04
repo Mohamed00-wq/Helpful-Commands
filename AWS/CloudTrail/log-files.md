@@ -1,6 +1,6 @@
 # Log Files
 
-> Log Files. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> Log Files. Part of the [CloudTrail](../) cheatsheet.
 
 CloudTrail writes gzipped JSON Lines to S3, so every file holds many records,
 one JSON object per line. `jq` reads that stream directly, and the files

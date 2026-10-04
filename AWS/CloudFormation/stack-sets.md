@@ -1,6 +1,6 @@
 # Stack Sets
 
-> Stack Sets. Part of the [CloudFormation](../CloudFormation.md) cheatsheet.
+> Stack Sets. Part of the [CloudFormation](../) cheatsheet.
 
 ## To list all stack sets
 

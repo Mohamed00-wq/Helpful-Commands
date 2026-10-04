@@ -1,6 +1,6 @@
 # Cluster Operations
 
-> Cluster Operations. Part of the [EKS](../EKS.md) cheatsheet.
+> Cluster Operations. Part of the [EKS](../) cheatsheet.
 
 ## To list all EKS clusters
 

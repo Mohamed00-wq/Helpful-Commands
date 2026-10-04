@@ -1,6 +1,6 @@
 # Block Device Mapping
 
-> Block Device Mapping. Part of the [AMI](../AMI.md) cheatsheet.
+> Block Device Mapping. Part of the [AMI](../) cheatsheet.
 
 ## To view AMI block device mappings
 

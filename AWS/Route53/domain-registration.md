@@ -1,6 +1,6 @@
 # Domain Registration
 
-> Domain Registration. Part of the [Route53](../Route53.md) cheatsheet.
+> Domain Registration. Part of the [Route53](../) cheatsheet.
 
 ## To list registered domains
 

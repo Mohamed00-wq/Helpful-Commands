@@ -1,6 +1,6 @@
 # Aurora Clusters
 
-> Aurora Clusters. Part of the [RDS](../RDS.md) cheatsheet.
+> Aurora Clusters. Part of the [RDS](../) cheatsheet.
 
 ## To list all Aurora clusters
 

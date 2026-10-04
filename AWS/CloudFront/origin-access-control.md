@@ -1,6 +1,6 @@
 # Origin Access Control (OAC)
 
-> Origin Access Control (OAC). Part of the [CloudFront](../CloudFront.md) cheatsheet.
+> Origin Access Control (OAC). Part of the [CloudFront](../) cheatsheet.
 
 ## To list OACs
 

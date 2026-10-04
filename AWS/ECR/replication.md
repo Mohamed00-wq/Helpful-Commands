@@ -1,6 +1,6 @@
 # Replication
 
-> Replication. Part of the [ECR](../ECR.md) cheatsheet.
+> Replication. Part of the [ECR](../) cheatsheet.
 
 ## To enable registry replication
 

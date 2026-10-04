@@ -1,6 +1,6 @@
 # Node Groups
 
-> Node Groups. Part of the [EKS](../EKS.md) cheatsheet.
+> Node Groups. Part of the [EKS](../) cheatsheet.
 
 ## To list node groups
 

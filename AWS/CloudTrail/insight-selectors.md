@@ -1,6 +1,6 @@
 # Insight Selectors
 
-> Insight Selectors. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> Insight Selectors. Part of the [CloudTrail](../) cheatsheet.
 
 Insights are CloudTrail's own anomaly detection. They write summary events into
 the trail and event history so you see the spike without reading every record.

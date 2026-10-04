@@ -1,6 +1,6 @@
 # Exports & Outputs
 
-> Exports & Outputs. Part of the [CloudFormation](../CloudFormation.md) cheatsheet.
+> Exports & Outputs. Part of the [CloudFormation](../) cheatsheet.
 
 ## To list all exports
 

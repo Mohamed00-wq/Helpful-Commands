@@ -1,6 +1,6 @@
 # Alias Records (ALB/NLB/CloudFront)
 
-> Alias Records (ALB/NLB/CloudFront). Part of the [Route53](../Route53.md) cheatsheet.
+> Alias Records (ALB/NLB/CloudFront). Part of the [Route53](../) cheatsheet.
 
 ## To create alias record
 

@@ -1,6 +1,6 @@
 # Validate & Estimate
 
-> Validate & Estimate. Part of the [CloudFormation](../CloudFormation.md) cheatsheet.
+> Validate & Estimate. Part of the [CloudFormation](../) cheatsheet.
 
 ## To validate a template
 

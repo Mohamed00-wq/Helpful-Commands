@@ -1,6 +1,6 @@
 # Finding Changes
 
-> Finding Changes. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> Finding Changes. Part of the [CloudTrail](../) cheatsheet.
 
 Event history covers the last 90 days and one region at a time, which is
 enough for "who did this to me right now" questions. For anything older or

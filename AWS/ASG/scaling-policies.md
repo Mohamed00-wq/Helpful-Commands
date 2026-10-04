@@ -1,6 +1,6 @@
 # Scaling Policies
 
-> Scaling Policies. Part of the [ASG](../ASG.md) cheatsheet.
+> Scaling Policies. Part of the [ASG](../) cheatsheet.
 
 ## To create a target tracking policy (CPU)
 

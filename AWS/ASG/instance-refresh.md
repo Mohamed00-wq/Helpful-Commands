@@ -1,6 +1,6 @@
 # Instance Refresh
 
-> Instance Refresh. Part of the [ASG](../ASG.md) cheatsheet.
+> Instance Refresh. Part of the [ASG](../) cheatsheet.
 
 ## To start an instance refresh (rolling update)
 

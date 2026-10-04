@@ -1,6 +1,6 @@
 # Tags
 
-> Tags. Part of the [CostExplorer](../CostExplorer.md) cheatsheet.
+> Tags. Part of the [CostExplorer](../) cheatsheet.
 
 `get-tags` returns the tag keys and nothing else, so it answers which keys are
 active and never what their values are. Only keys switched on in the billing

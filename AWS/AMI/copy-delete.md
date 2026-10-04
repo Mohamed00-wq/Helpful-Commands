@@ -1,6 +1,6 @@
 # Copy / Delete
 
-> Copy / Delete. Part of the [AMI](../AMI.md) cheatsheet.
+> Copy / Delete. Part of the [AMI](../) cheatsheet.
 
 ## To copy an AMI to another region
 

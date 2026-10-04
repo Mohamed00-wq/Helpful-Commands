@@ -1,6 +1,6 @@
 # Metric Filters
 
-> Metric Filters. Part of the [CloudWatch](../CloudWatch.md) cheatsheet.
+> Metric Filters. Part of the [CloudWatch](../) cheatsheet.
 
 ## To create a metric filter
 

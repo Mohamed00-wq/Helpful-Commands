@@ -1,6 +1,6 @@
 # Launch Templates
 
-> Launch Templates. Part of the [ASG](../ASG.md) cheatsheet.
+> Launch Templates. Part of the [ASG](../) cheatsheet.
 
 ## To create a launch template
 

@@ -1,6 +1,6 @@
 # Pricing
 
-> Pricing. Part of the [CostExplorer](../CostExplorer.md) cheatsheet.
+> Pricing. Part of the [CostExplorer](../) cheatsheet.
 
 The Price List Query API is the list price side of billing, and it is the only
 way to get a price before you buy anything. It is not Cost Explorer: the service

@@ -1,6 +1,6 @@
 # DB Instances
 
-> DB Instances. Part of the [RDS](../RDS.md) cheatsheet.
+> DB Instances. Part of the [RDS](../) cheatsheet.
 
 ## To list all RDS instances
 

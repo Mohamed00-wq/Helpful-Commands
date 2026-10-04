@@ -1,6 +1,6 @@
 # Services
 
-> Services. Part of the [ECS](../ECS.md) cheatsheet.
+> Services. Part of the [ECS](../) cheatsheet.
 
 ## To list services in a cluster
 

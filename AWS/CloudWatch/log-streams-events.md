@@ -1,6 +1,6 @@
 # Log Streams & Events
 
-> Log Streams & Events. Part of the [CloudWatch](../CloudWatch.md) cheatsheet.
+> Log Streams & Events. Part of the [CloudWatch](../) cheatsheet.
 
 ## To list log streams
 

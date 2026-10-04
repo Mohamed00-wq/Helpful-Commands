@@ -1,6 +1,6 @@
 # Secrets Manager Resource Policy
 
-> Secrets Manager Resource Policy. Part of the [KMS-Secrets](../KMS-Secrets.md) cheatsheet.
+> Secrets Manager Resource Policy. Part of the [KMS-Secrets](../) cheatsheet.
 
 ## To get resource policy
 

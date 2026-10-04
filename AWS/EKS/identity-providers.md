@@ -1,6 +1,6 @@
 # Identity Providers (OIDC)
 
-> Identity Providers (OIDC). Part of the [EKS](../EKS.md) cheatsheet.
+> Identity Providers (OIDC). Part of the [EKS](../) cheatsheet.
 
 ## To get OIDC details
 

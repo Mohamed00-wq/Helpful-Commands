@@ -1,6 +1,6 @@
 # Batch Operations
 
-> Batch Operations. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Batch Operations. Part of the [DynamoDB](../) cheatsheet.
 
 A batch call sends many items in one request: up to 100 keys to read, up to 25
 writes, and a provisioned table counts the whole batch as a single write.

@@ -1,6 +1,6 @@
 # Fargate Profiles
 
-> Fargate Profiles. Part of the [EKS](../EKS.md) cheatsheet.
+> Fargate Profiles. Part of the [EKS](../) cheatsheet.
 
 ## To list Fargate profiles
 

@@ -1,6 +1,6 @@
 # Maintenance Windows
 
-> Maintenance Windows. Part of the [SystemsManager](../SystemsManager.md) cheatsheet.
+> Maintenance Windows. Part of the [SystemsManager](../) cheatsheet.
 
 ## To list maintenance windows
 

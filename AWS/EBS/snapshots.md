@@ -1,6 +1,6 @@
 # Snapshots
 
-> Snapshots. Part of the [EBS](../EBS.md) cheatsheet.
+> Snapshots. Part of the [EBS](../) cheatsheet.
 
 ## To create a snapshot from a volume
 

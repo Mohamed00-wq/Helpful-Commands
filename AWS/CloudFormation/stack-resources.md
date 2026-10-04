@@ -1,6 +1,6 @@
 # Stack Resources
 
-> Stack Resources. Part of the [CloudFormation](../CloudFormation.md) cheatsheet.
+> Stack Resources. Part of the [CloudFormation](../) cheatsheet.
 
 ## To list all resources in a stack
 

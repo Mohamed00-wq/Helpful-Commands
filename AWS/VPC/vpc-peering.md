@@ -1,6 +1,6 @@
 # VPC Peering
 
-> VPC Peering. Part of the [VPC](../VPC.md) cheatsheet.
+> VPC Peering. Part of the [VPC](../) cheatsheet.
 
 ## To list peering connections
 

@@ -1,6 +1,6 @@
 # Access & Authentication
 
-> Access & Authentication. Part of the [EKS](../EKS.md) cheatsheet.
+> Access & Authentication. Part of the [EKS](../) cheatsheet.
 
 ## To update kubeconfig for the cluster
 

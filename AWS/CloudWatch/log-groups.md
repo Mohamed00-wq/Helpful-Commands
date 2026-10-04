@@ -1,6 +1,6 @@
 # Log Groups
 
-> Log Groups. Part of the [CloudWatch](../CloudWatch.md) cheatsheet.
+> Log Groups. Part of the [CloudWatch](../) cheatsheet.
 
 ## To list all log groups
 

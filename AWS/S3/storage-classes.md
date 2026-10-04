@@ -1,6 +1,6 @@
 # Storage Classes
 
-> Storage Classes. Part of the [S3](../S3.md) cheatsheet.
+> Storage Classes. Part of the [S3](../) cheatsheet.
 
 ## To upload to a specific storage class
 

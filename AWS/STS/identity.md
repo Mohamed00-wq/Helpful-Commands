@@ -1,6 +1,6 @@
 # Identity
 
-> Identity. Part of the [STS](../STS.md) cheatsheet.
+> Identity. Part of the [STS](../) cheatsheet.
 
 ## To check who you are
 

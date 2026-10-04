@@ -1,6 +1,6 @@
 # Addons
 
-> Addons. Part of the [EKS](../EKS.md) cheatsheet.
+> Addons. Part of the [EKS](../) cheatsheet.
 
 ## To list installed addons
 

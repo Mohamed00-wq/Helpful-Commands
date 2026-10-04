@@ -1,6 +1,6 @@
 # Layers
 
-> Layers. Part of the [Lambda](../Lambda.md) cheatsheet.
+> Layers. Part of the [Lambda](../) cheatsheet.
 
 ## To list all layers
 

@@ -1,6 +1,6 @@
 # Alarms
 
-> Alarms. Part of the [CloudWatch](../CloudWatch.md) cheatsheet.
+> Alarms. Part of the [CloudWatch](../) cheatsheet.
 
 ## To list all alarms
 

@@ -1,6 +1,6 @@
 # Bucket Size From CloudWatch
 
-> Bucket Size From CloudWatch. Part of the [S3](../S3.md) cheatsheet.
+> Bucket Size From CloudWatch. Part of the [S3](../) cheatsheet.
 
 ## To get the bucket size from CloudWatch
 

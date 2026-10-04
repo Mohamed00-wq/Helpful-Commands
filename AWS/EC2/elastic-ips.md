@@ -1,6 +1,6 @@
 # Elastic IPs
 
-> Elastic IPs. Part of the [EC2](../EC2.md) cheatsheet.
+> Elastic IPs. Part of the [EC2](../) cheatsheet.
 
 ## To list all Elastic IPs
 

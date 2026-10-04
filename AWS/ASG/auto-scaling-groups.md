@@ -1,6 +1,6 @@
 # Auto Scaling Groups
 
-> Auto Scaling Groups. Part of the [ASG](../ASG.md) cheatsheet.
+> Auto Scaling Groups. Part of the [ASG](../) cheatsheet.
 
 ## To list all ASGs
 

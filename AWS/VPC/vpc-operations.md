@@ -1,6 +1,6 @@
 # VPC Operations
 
-> VPC Operations. Part of the [VPC](../VPC.md) cheatsheet.
+> VPC Operations. Part of the [VPC](../) cheatsheet.
 
 ## To list all VPCs
 

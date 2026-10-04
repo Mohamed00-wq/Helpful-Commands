@@ -1,6 +1,6 @@
 # Trails
 
-> Trails. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> Trails. Part of the [CloudTrail](../) cheatsheet.
 
 ## To create a multi-region trail
 

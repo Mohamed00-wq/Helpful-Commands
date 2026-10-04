@@ -1,6 +1,6 @@
 # Multipart Uploads
 
-> Multipart Uploads. Part of the [S3](../S3.md) cheatsheet.
+> Multipart Uploads. Part of the [S3](../) cheatsheet.
 
 ## To start a multipart upload
 

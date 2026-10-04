@@ -1,6 +1,6 @@
 # Cost and Usage
 
-> Cost and Usage. Part of the [CostExplorer](../CostExplorer.md) cheatsheet.
+> Cost and Usage. Part of the [CostExplorer](../) cheatsheet.
 
 ## To get the cost of a month
 

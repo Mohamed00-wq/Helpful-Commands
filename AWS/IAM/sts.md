@@ -1,6 +1,6 @@
 # STS (Security Token Service)
 
-> STS (Security Token Service). Part of the [IAM](../IAM.md) cheatsheet.
+> STS (Security Token Service). Part of the [IAM](../) cheatsheet.
 
 ## To show currently authenticated identity
 

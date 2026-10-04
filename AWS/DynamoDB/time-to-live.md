@@ -1,6 +1,6 @@
 # Time to Live
 
-> Time to Live. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Time to Live. Part of the [DynamoDB](../) cheatsheet.
 
 ## To enable time to live
 

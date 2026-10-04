@@ -1,6 +1,6 @@
 # Tasks
 
-> Tasks. Part of the [ECS](../ECS.md) cheatsheet.
+> Tasks. Part of the [ECS](../) cheatsheet.
 
 ## To list running tasks
 

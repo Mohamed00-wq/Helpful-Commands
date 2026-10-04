@@ -1,6 +1,6 @@
 # State Machine Versions
 
-> State Machine Versions. Part of the [StepFunctions](../StepFunctions.md) cheatsheet.
+> State Machine Versions. Part of the [StepFunctions](../) cheatsheet.
 
 A version pins the definition at the moment you published it, which is what
 makes a rollback a one line change later. Starting an execution against the

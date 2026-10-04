@@ -1,6 +1,6 @@
 # Conditions and Locking
 
-> Conditions and Locking. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Conditions and Locking. Part of the [DynamoDB](../) cheatsheet.
 
 ## To create an item only if it does not exist
 

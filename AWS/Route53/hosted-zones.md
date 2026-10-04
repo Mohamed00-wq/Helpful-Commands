@@ -1,6 +1,6 @@
 # Hosted Zones
 
-> Hosted Zones. Part of the [Route53](../Route53.md) cheatsheet.
+> Hosted Zones. Part of the [Route53](../) cheatsheet.
 
 ## To list all hosted zones
 

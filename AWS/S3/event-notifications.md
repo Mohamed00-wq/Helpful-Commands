@@ -1,6 +1,6 @@
 # Event Notifications
 
-> Event Notifications. Part of the [S3](../S3.md) cheatsheet.
+> Event Notifications. Part of the [S3](../) cheatsheet.
 
 ## To notify Lambda on object creation
 

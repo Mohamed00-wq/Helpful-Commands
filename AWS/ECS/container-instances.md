@@ -1,6 +1,6 @@
 # Container Instances (EC2 Launch Type)
 
-> Container Instances (EC2 Launch Type). Part of the [ECS](../ECS.md) cheatsheet.
+> Container Instances (EC2 Launch Type). Part of the [ECS](../) cheatsheet.
 
 ## To list container instances
 

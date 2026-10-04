@@ -1,6 +1,6 @@
 # Images
 
-> Images. Part of the [ECR](../ECR.md) cheatsheet.
+> Images. Part of the [ECR](../) cheatsheet.
 
 ## To push an image
 

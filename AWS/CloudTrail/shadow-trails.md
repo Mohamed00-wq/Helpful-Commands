@@ -1,6 +1,6 @@
 # Shadow Trails
 
-> Shadow Trails. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> Shadow Trails. Part of the [CloudTrail](../) cheatsheet.
 
 Shadow trails are copies of a member account's trail created automatically for
 a partner integration, such as a SIEM. The AWS CLI has no call to create one;

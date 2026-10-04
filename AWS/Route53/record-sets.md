@@ -1,6 +1,6 @@
 # Record Sets
 
-> Record Sets. Part of the [Route53](../Route53.md) cheatsheet.
+> Record Sets. Part of the [Route53](../) cheatsheet.
 
 ## To create or update record sets
 

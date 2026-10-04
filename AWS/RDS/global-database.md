@@ -1,6 +1,6 @@
 # Global Database (Aurora)
 
-> Global Database (Aurora). Part of the [RDS](../RDS.md) cheatsheet.
+> Global Database (Aurora). Part of the [RDS](../) cheatsheet.
 
 ## To list Aurora Global Databases
 

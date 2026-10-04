@@ -1,6 +1,6 @@
 # Lifecycle
 
-> Lifecycle. Part of the [ECR](../ECR.md) cheatsheet.
+> Lifecycle. Part of the [ECR](../) cheatsheet.
 
 ## To expire old images
 

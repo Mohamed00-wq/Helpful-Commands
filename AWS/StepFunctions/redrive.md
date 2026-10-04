@@ -1,6 +1,6 @@
 # Redrive
 
-> Redrive. Part of the [StepFunctions](../StepFunctions.md) cheatsheet.
+> Redrive. Part of the [StepFunctions](../) cheatsheet.
 
 Redrive restarts a Standard workflow execution that failed, aborted, or timed
 out, continuing from the state that failed with the original input and the

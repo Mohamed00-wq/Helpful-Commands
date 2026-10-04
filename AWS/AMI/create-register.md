@@ -1,6 +1,6 @@
 # Create / Register
 
-> Create / Register. Part of the [AMI](../AMI.md) cheatsheet.
+> Create / Register. Part of the [AMI](../) cheatsheet.
 
 ## To create an AMI from a running instance (no reboot)
 

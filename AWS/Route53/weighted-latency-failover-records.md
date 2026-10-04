@@ -1,6 +1,6 @@
 # Weighted / Latency / Failover Records
 
-> Weighted / Latency / Failover Records. Part of the [Route53](../Route53.md) cheatsheet.
+> Weighted / Latency / Failover Records. Part of the [Route53](../) cheatsheet.
 
 ## To create weighted records
 

@@ -1,6 +1,6 @@
 # Versioning
 
-> Versioning. Part of the [S3](../S3.md) cheatsheet.
+> Versioning. Part of the [S3](../) cheatsheet.
 
 ## To check the versioning status
 

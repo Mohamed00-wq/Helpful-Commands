@@ -1,6 +1,6 @@
 # Legacy Launch Configurations
 
-> Legacy Launch Configurations. Part of the [ASG](../ASG.md) cheatsheet.
+> Legacy Launch Configurations. Part of the [ASG](../) cheatsheet.
 
 Launch configurations are deprecated. They are documented here only so you can
 inspect an existing group that still uses one. New groups must use a launch

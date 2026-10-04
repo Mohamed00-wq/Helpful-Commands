@@ -1,6 +1,6 @@
 # On-Demand Pricing (Pricing API)
 
-> On-Demand Pricing (Pricing API). Part of the [EC2-Pricing](../EC2-Pricing.md) cheatsheet.
+> On-Demand Pricing (Pricing API). Part of the [EC2-Pricing](../) cheatsheet.
 
 ## To query On-Demand pricing for a specific instance type
 

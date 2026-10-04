@@ -1,6 +1,6 @@
 # Function URLs
 
-> Function URLs. Part of the [Lambda](../Lambda.md) cheatsheet.
+> Function URLs. Part of the [Lambda](../) cheatsheet.
 
 ## To create a public function URL
 

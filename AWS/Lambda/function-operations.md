@@ -1,6 +1,6 @@
 # Function Operations
 
-> Function Operations. Part of the [Lambda](../Lambda.md) cheatsheet.
+> Function Operations. Part of the [Lambda](../) cheatsheet.
 
 ## To list all Lambda functions
 

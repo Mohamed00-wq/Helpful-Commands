@@ -1,6 +1,6 @@
 # Route Tables
 
-> Route Tables. Part of the [VPC](../VPC.md) cheatsheet.
+> Route Tables. Part of the [VPC](../) cheatsheet.
 
 ## To list route tables
 

@@ -1,6 +1,6 @@
 # Query and Scan
 
-> Query and Scan. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Query and Scan. Part of the [DynamoDB](../) cheatsheet.
 
 ## To query a partition
 

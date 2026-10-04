@@ -1,6 +1,6 @@
 # Traffic Flow
 
-> Traffic Flow. Part of the [Route53](../Route53.md) cheatsheet.
+> Traffic Flow. Part of the [Route53](../) cheatsheet.
 
 ## To list records
 

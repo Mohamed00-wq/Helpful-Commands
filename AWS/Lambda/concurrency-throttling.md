@@ -1,6 +1,6 @@
 # Concurrency & Throttling
 
-> Concurrency & Throttling. Part of the [Lambda](../Lambda.md) cheatsheet.
+> Concurrency & Throttling. Part of the [Lambda](../) cheatsheet.
 
 ## To get reserved concurrency
 

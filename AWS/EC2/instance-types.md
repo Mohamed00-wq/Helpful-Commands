@@ -1,6 +1,6 @@
 # Instance Types
 
-> Instance Types. Part of the [EC2](../EC2.md) cheatsheet.
+> Instance Types. Part of the [EC2](../) cheatsheet.
 
 ## To list all available instance types
 

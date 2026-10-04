@@ -1,6 +1,6 @@
 # Parameter Store (SSM)
 
-> Parameter Store (SSM). Part of the [KMS-Secrets](../KMS-Secrets.md) cheatsheet.
+> Parameter Store (SSM). Part of the [KMS-Secrets](../) cheatsheet.
 
 ## To get a parameter
 

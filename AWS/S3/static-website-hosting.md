@@ -1,6 +1,6 @@
 # Static Website Hosting
 
-> Static Website Hosting. Part of the [S3](../S3.md) cheatsheet.
+> Static Website Hosting. Part of the [S3](../) cheatsheet.
 
 ## To configure a website endpoint
 

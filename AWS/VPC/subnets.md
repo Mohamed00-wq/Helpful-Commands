@@ -1,6 +1,6 @@
 # Subnets
 
-> Subnets. Part of the [VPC](../VPC.md) cheatsheet.
+> Subnets. Part of the [VPC](../) cheatsheet.
 
 ## To list all subnets
 

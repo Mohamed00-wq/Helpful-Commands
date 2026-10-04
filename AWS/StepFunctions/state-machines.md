@@ -1,6 +1,6 @@
 # State Machines
 
-> State Machines. Part of the [StepFunctions](../StepFunctions.md) cheatsheet.
+> State Machines. Part of the [StepFunctions](../) cheatsheet.
 
 ## To create a Standard state machine
 

@@ -1,6 +1,6 @@
 # Credential Reports
 
-> Credential Reports. Part of the [IAM](../IAM.md) cheatsheet.
+> Credential Reports. Part of the [IAM](../) cheatsheet.
 
 ## To generate a credential report
 

@@ -1,6 +1,6 @@
 # Lifecycle
 
-> Lifecycle. Part of the [S3](../S3.md) cheatsheet.
+> Lifecycle. Part of the [S3](../) cheatsheet.
 
 ## To view the current lifecycle rules
 

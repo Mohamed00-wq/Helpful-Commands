@@ -1,6 +1,6 @@
 # KMS Grants
 
-> KMS Grants. Part of the [KMS-Secrets](../KMS-Secrets.md) cheatsheet.
+> KMS Grants. Part of the [KMS-Secrets](../) cheatsheet.
 
 ## To list grants on a key
 

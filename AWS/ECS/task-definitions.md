@@ -1,6 +1,6 @@
 # Task Definitions
 
-> Task Definitions. Part of the [ECS](../ECS.md) cheatsheet.
+> Task Definitions. Part of the [ECS](../) cheatsheet.
 
 ## To list all task definitions
 

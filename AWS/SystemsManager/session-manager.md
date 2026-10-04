@@ -1,6 +1,6 @@
 # Session Manager
 
-> Session Manager. Part of the [SystemsManager](../SystemsManager.md) cheatsheet.
+> Session Manager. Part of the [SystemsManager](../) cheatsheet.
 
 ## To start a session
 

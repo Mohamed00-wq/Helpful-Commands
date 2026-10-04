@@ -1,6 +1,6 @@
 # Items
 
-> Items. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Items. Part of the [DynamoDB](../) cheatsheet.
 
 Every value is an `AttributeValue` object rather than a bare value: a string is
 `{"S":"x"}`, a number is `{"N":"1"}`, and the number itself is a string inside

@@ -1,6 +1,6 @@
 # Savings Plans
 
-> Savings Plans. Part of the [EC2-Pricing](../EC2-Pricing.md) cheatsheet.
+> Savings Plans. Part of the [EC2-Pricing](../) cheatsheet.
 
 ## To list all active Savings Plans
 

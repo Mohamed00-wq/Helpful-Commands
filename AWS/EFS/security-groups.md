@@ -1,6 +1,6 @@
 # Security Groups
 
-> Security Groups. Part of the [EFS](../EFS.md) cheatsheet.
+> Security Groups. Part of the [EFS](../) cheatsheet.
 
 EFS has no security groups on the file system itself: the groups attach to the
 network interface of each mount target, and the file system API never accepts

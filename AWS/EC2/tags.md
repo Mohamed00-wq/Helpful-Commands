@@ -1,6 +1,6 @@
 # Tags
 
-> Tags. Part of the [EC2](../EC2.md) cheatsheet.
+> Tags. Part of the [EC2](../) cheatsheet.
 
 ## To list all tags
 

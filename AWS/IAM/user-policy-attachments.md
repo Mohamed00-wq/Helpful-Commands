@@ -1,6 +1,6 @@
 # User-Policy Attachments
 
-> User-Policy Attachments. Part of the [IAM](../IAM.md) cheatsheet.
+> User-Policy Attachments. Part of the [IAM](../) cheatsheet.
 
 ## To attach a managed policy to a user
 

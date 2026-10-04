@@ -1,6 +1,6 @@
 # Internet Gateway
 
-> Internet Gateway. Part of the [VPC](../VPC.md) cheatsheet.
+> Internet Gateway. Part of the [VPC](../) cheatsheet.
 
 ## To list IGWs
 

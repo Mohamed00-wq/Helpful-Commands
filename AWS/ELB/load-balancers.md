@@ -1,6 +1,6 @@
 # Load Balancers (ALB / NLB)
 
-> Load Balancers (ALB / NLB). Part of the [ELB](../ELB.md) cheatsheet.
+> Load Balancers (ALB / NLB). Part of the [ELB](../) cheatsheet.
 
 ## To list all ALBs/NLBs
 

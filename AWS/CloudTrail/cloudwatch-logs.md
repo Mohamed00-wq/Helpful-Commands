@@ -1,6 +1,6 @@
 # CloudWatch Logs
 
-> CloudWatch Logs. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> CloudWatch Logs. Part of the [CloudTrail](../) cheatsheet.
 
 A trail can send the same events to a log group as well as to S3, which lets
 `filter-log-events` search them without touching the bucket.

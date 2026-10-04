@@ -1,6 +1,6 @@
 # Federation
 
-> Federation. Part of the [STS](../STS.md) cheatsheet.
+> Federation. Part of the [STS](../) cheatsheet.
 
 ## To get a federated token
 

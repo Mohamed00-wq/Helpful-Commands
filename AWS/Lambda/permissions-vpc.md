@@ -1,6 +1,6 @@
 # Permissions & VPC
 
-> Permissions & VPC. Part of the [Lambda](../Lambda.md) cheatsheet.
+> Permissions & VPC. Part of the [Lambda](../) cheatsheet.
 
 ## To add a resource-based policy
 

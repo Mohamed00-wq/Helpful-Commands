@@ -1,6 +1,6 @@
 # Spot Instances
 
-> Spot Instances. Part of the [EC2-Pricing](../EC2-Pricing.md) cheatsheet.
+> Spot Instances. Part of the [EC2-Pricing](../) cheatsheet.
 
 ## To view current Spot price history
 

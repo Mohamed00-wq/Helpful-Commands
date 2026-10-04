@@ -1,6 +1,6 @@
 # Tags
 
-> Tags. Part of the [Lambda](../Lambda.md) cheatsheet.
+> Tags. Part of the [Lambda](../) cheatsheet.
 
 ## To list tags
 

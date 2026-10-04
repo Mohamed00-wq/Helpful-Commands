@@ -1,6 +1,6 @@
 # Access Points
 
-> Access Points. Part of the [EFS](../EFS.md) cheatsheet.
+> Access Points. Part of the [EFS](../) cheatsheet.
 
 An access point is an entry point that enforces a POSIX user and a root
 directory, so every request through it runs as that user and sees that directory

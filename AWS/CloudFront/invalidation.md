@@ -1,6 +1,6 @@
 # Invalidation
 
-> Invalidation. Part of the [CloudFront](../CloudFront.md) cheatsheet.
+> Invalidation. Part of the [CloudFront](../) cheatsheet.
 
 ## To invalidate all files
 

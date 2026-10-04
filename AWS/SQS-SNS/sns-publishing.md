@@ -1,6 +1,6 @@
 # SNS Publishing
 
-> SNS Publishing. Part of the [SQS-SNS](../SQS-SNS.md) cheatsheet.
+> SNS Publishing. Part of the [SQS-SNS](../) cheatsheet.
 
 ## To publish a message
 

@@ -1,6 +1,6 @@
 # SNS Message Filtering
 
-> SNS Message Filtering. Part of the [SQS-SNS](../SQS-SNS.md) cheatsheet.
+> SNS Message Filtering. Part of the [SQS-SNS](../) cheatsheet.
 
 ## To subscribe with filter
 

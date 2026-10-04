@@ -1,6 +1,6 @@
 # SNS Topics
 
-> SNS Topics. Part of the [SQS-SNS](../SQS-SNS.md) cheatsheet.
+> SNS Topics. Part of the [SQS-SNS](../) cheatsheet.
 
 ## To list all topics
 

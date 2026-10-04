@@ -1,6 +1,6 @@
 # Classic Load Balancer (CLB / ELBv1)
 
-> Classic Load Balancer (CLB / ELBv1). Part of the [ELB](../ELB.md) cheatsheet.
+> Classic Load Balancer (CLB / ELBv1). Part of the [ELB](../) cheatsheet.
 
 ## To list classic load balancers
 

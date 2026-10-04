@@ -1,6 +1,6 @@
 # Network ACLs
 
-> Network ACLs. Part of the [VPC](../VPC.md) cheatsheet.
+> Network ACLs. Part of the [VPC](../) cheatsheet.
 
 ## To list all NACLs
 

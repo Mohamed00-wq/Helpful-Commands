@@ -1,6 +1,6 @@
 # Web Identity Federation
 
-> Web Identity Federation. Part of the [STS](../STS.md) cheatsheet.
+> Web Identity Federation. Part of the [STS](../) cheatsheet.
 
 ## To get credentials from an OIDC token
 

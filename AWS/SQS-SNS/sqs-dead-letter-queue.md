@@ -1,6 +1,6 @@
 # SQS Dead-Letter Queue
 
-> SQS Dead-Letter Queue. Part of the [SQS-SNS](../SQS-SNS.md) cheatsheet.
+> SQS Dead-Letter Queue. Part of the [SQS-SNS](../) cheatsheet.
 
 ## To set DLQ policy
 

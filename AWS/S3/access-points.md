@@ -1,6 +1,6 @@
 # Access Points
 
-> Access Points. Part of the [S3](../S3.md) cheatsheet.
+> Access Points. Part of the [S3](../) cheatsheet.
 
 ## To create an access point
 

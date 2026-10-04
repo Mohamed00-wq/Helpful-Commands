@@ -1,6 +1,6 @@
 # Instances (SSM Agent)
 
-> Instances (SSM Agent). Part of the [SystemsManager](../SystemsManager.md) cheatsheet.
+> Instances (SSM Agent). Part of the [SystemsManager](../) cheatsheet.
 
 ## To list managed instances
 

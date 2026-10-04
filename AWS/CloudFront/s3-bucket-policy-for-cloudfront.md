@@ -1,6 +1,6 @@
 # S3 Bucket Policy for CloudFront
 
-> S3 Bucket Policy for CloudFront. Part of the [CloudFront](../CloudFront.md) cheatsheet.
+> S3 Bucket Policy for CloudFront. Part of the [CloudFront](../) cheatsheet.
 
 ## To set CloudFront bucket policy
 

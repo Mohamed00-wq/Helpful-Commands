@@ -1,6 +1,6 @@
 # Assuming Roles
 
-> Assuming Roles. Part of the [STS](../STS.md) cheatsheet.
+> Assuming Roles. Part of the [STS](../) cheatsheet.
 
 ## To assume a role
 

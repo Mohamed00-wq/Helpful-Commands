@@ -1,6 +1,6 @@
 # Clusters
 
-> Clusters. Part of the [ECS](../ECS.md) cheatsheet.
+> Clusters. Part of the [ECS](../) cheatsheet.
 
 ## To list all clusters
 

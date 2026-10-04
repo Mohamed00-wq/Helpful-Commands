@@ -1,6 +1,6 @@
 # Flow Logs
 
-> Flow Logs. Part of the [VPC](../VPC.md) cheatsheet.
+> Flow Logs. Part of the [VPC](../) cheatsheet.
 
 ## To list flow logs
 

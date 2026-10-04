@@ -1,6 +1,6 @@
 # Sharing / Permissions
 
-> Sharing / Permissions. Part of the [AMI](../AMI.md) cheatsheet.
+> Sharing / Permissions. Part of the [AMI](../) cheatsheet.
 
 ## To view AMI sharing permissions
 

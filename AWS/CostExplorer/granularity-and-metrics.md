@@ -1,6 +1,6 @@
 # Granularity and Metrics
 
-> Granularity and Metrics. Part of the [CostExplorer](../CostExplorer.md) cheatsheet.
+> Granularity and Metrics. Part of the [CostExplorer](../) cheatsheet.
 
 `--granularity` takes `DAILY`, `MONTHLY`, or `HOURLY`, and the value decides the
 size of each entry in `ResultsByTime`. The forecast operation is the exception:

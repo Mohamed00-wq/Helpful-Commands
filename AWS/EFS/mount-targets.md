@@ -1,6 +1,6 @@
 # Mount Targets
 
-> Mount Targets. Part of the [EFS](../EFS.md) cheatsheet.
+> Mount Targets. Part of the [EFS](../) cheatsheet.
 
 A file system is unreachable until it has at least one mount target, and the
 mount target is what carries the subnet, the network interface, and the security

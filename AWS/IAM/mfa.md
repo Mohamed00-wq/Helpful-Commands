@@ -1,6 +1,6 @@
 # MFA
 
-> MFA. Part of the [IAM](../IAM.md) cheatsheet.
+> MFA. Part of the [IAM](../) cheatsheet.
 
 ## To list MFA devices for a user
 

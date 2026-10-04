@@ -1,6 +1,6 @@
 # Read Replicas
 
-> Read Replicas. Part of the [RDS](../RDS.md) cheatsheet.
+> Read Replicas. Part of the [RDS](../) cheatsheet.
 
 ## To create a read replica
 

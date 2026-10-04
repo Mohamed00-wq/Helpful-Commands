@@ -1,6 +1,6 @@
 # Metrics
 
-> Metrics. Part of the [CloudWatch](../CloudWatch.md) cheatsheet.
+> Metrics. Part of the [CloudWatch](../) cheatsheet.
 
 ## To list EC2 metrics
 

@@ -1,6 +1,6 @@
 # Placement Groups
 
-> Placement Groups. Part of the [EC2](../EC2.md) cheatsheet.
+> Placement Groups. Part of the [EC2](../) cheatsheet.
 
 ## To list placement groups
 

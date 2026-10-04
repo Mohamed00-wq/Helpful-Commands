@@ -1,6 +1,6 @@
 # Key Pairs
 
-> Key Pairs. Part of the [EC2](../EC2.md) cheatsheet.
+> Key Pairs. Part of the [EC2](../) cheatsheet.
 
 ## To list all key pairs
 

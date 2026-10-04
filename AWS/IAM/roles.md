@@ -1,6 +1,6 @@
 # Roles
 
-> Roles. Part of the [IAM](../IAM.md) cheatsheet.
+> Roles. Part of the [IAM](../) cheatsheet.
 
 ## To list all IAM roles
 

@@ -1,6 +1,6 @@
 # Parameter Groups
 
-> Parameter Groups. Part of the [RDS](../RDS.md) cheatsheet.
+> Parameter Groups. Part of the [RDS](../) cheatsheet.
 
 ## To list parameter groups
 

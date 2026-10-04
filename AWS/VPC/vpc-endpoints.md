@@ -1,6 +1,6 @@
 # VPC Endpoints (PrivateLink)
 
-> VPC Endpoints (PrivateLink). Part of the [VPC](../VPC.md) cheatsheet.
+> VPC Endpoints (PrivateLink). Part of the [VPC](../) cheatsheet.
 
 ## To list all endpoints
 

@@ -1,6 +1,6 @@
 # Event History
 
-> Event History. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> Event History. Part of the [CloudTrail](../) cheatsheet.
 
 Event history is a searchable copy of management events kept in the region for
 the configured retention window, 90 days by default. It never contains data

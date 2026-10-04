@@ -1,6 +1,6 @@
 # Policies
 
-> Policies. Part of the [IAM](../IAM.md) cheatsheet.
+> Policies. Part of the [IAM](../) cheatsheet.
 
 ## To list all IAM policies
 

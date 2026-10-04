@@ -1,6 +1,6 @@
 # Dimensions
 
-> Dimensions. Part of the [CostExplorer](../CostExplorer.md) cheatsheet.
+> Dimensions. Part of the [CostExplorer](../) cheatsheet.
 
 ## To list the service names
 

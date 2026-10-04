@@ -1,6 +1,6 @@
 # Encryption
 
-> Encryption. Part of the [EBS](../EBS.md) cheatsheet.
+> Encryption. Part of the [EBS](../) cheatsheet.
 
 ## To enable default EBS encryption for the region
 

@@ -1,6 +1,6 @@
 # Authentication
 
-> Authentication. Part of the [ECR](../ECR.md) cheatsheet.
+> Authentication. Part of the [ECR](../) cheatsheet.
 
 ## To log in to ECR
 

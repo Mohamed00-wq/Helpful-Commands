@@ -1,6 +1,6 @@
 # Savings Plans Recommendations
 
-> Savings Plans Recommendations. Part of the [CostExplorer](../CostExplorer.md) cheatsheet.
+> Savings Plans Recommendations. Part of the [CostExplorer](../) cheatsheet.
 
 The recommendation is calculated from your recent usage, and a consolidated
 billing family gets only three refresh requests per 24 hours, so a retry loop

@@ -1,6 +1,6 @@
 # Transfer Tuning
 
-> Transfer Tuning. Part of the [S3](../S3.md) cheatsheet.
+> Transfer Tuning. Part of the [S3](../) cheatsheet.
 
 ## To tune transfer performance
 

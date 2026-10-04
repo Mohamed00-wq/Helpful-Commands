@@ -1,6 +1,6 @@
 # KMS Key Policy
 
-> KMS Key Policy. Part of the [KMS-Secrets](../KMS-Secrets.md) cheatsheet.
+> KMS Key Policy. Part of the [KMS-Secrets](../) cheatsheet.
 
 ## To get key policy
 

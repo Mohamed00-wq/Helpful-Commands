@@ -1,6 +1,6 @@
 # Change Sets
 
-> Change Sets. Part of the [CloudFormation](../CloudFormation.md) cheatsheet.
+> Change Sets. Part of the [CloudFormation](../) cheatsheet.
 
 ## To create a change set
 

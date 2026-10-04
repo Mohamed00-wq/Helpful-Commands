@@ -1,6 +1,6 @@
 # Patch Management
 
-> Patch Management. Part of the [SystemsManager](../SystemsManager.md) cheatsheet.
+> Patch Management. Part of the [SystemsManager](../) cheatsheet.
 
 ## To list patch groups
 

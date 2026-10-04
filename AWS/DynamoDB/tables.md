@@ -1,6 +1,6 @@
 # Tables
 
-> Tables. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Tables. Part of the [DynamoDB](../) cheatsheet.
 
 ## To create a table on demand
 

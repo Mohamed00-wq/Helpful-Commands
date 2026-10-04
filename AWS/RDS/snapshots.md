@@ -1,6 +1,6 @@
 # Snapshots
 
-> Snapshots. Part of the [RDS](../RDS.md) cheatsheet.
+> Snapshots. Part of the [RDS](../) cheatsheet.
 
 ## To create a manual snapshot
 

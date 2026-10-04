@@ -1,6 +1,6 @@
 # Automation
 
-> Automation. Part of the [SystemsManager](../SystemsManager.md) cheatsheet.
+> Automation. Part of the [SystemsManager](../) cheatsheet.
 
 ## To list automation documents
 

@@ -1,6 +1,6 @@
 # Option Groups
 
-> Option Groups. Part of the [RDS](../RDS.md) cheatsheet.
+> Option Groups. Part of the [RDS](../) cheatsheet.
 
 ## To list option groups
 

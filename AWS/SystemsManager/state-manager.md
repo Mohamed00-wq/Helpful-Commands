@@ -1,6 +1,6 @@
 # State Manager
 
-> State Manager. Part of the [SystemsManager](../SystemsManager.md) cheatsheet.
+> State Manager. Part of the [SystemsManager](../) cheatsheet.
 
 ## To list associations
 

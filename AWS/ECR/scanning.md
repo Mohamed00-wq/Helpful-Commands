@@ -1,6 +1,6 @@
 # Scanning
 
-> Scanning. Part of the [ECR](../ECR.md) cheatsheet.
+> Scanning. Part of the [ECR](../) cheatsheet.
 
 ## To start an on-demand scan
 

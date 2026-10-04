@@ -1,6 +1,6 @@
 # VPC, Subnets & Route Tables
 
-> VPC, Subnets & Route Tables. Part of the [EC2](../EC2.md) cheatsheet.
+> VPC, Subnets & Route Tables. Part of the [EC2](../) cheatsheet.
 
 ## To list VPCs in the account
 

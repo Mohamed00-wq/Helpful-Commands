@@ -1,6 +1,6 @@
 # DB Subnet Groups
 
-> DB Subnet Groups. Part of the [RDS](../RDS.md) cheatsheet.
+> DB Subnet Groups. Part of the [RDS](../) cheatsheet.
 
 ## To list DB subnet groups
 

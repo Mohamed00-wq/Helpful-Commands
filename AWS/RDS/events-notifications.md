@@ -1,6 +1,6 @@
 # Events & Notifications
 
-> Events & Notifications. Part of the [RDS](../RDS.md) cheatsheet.
+> Events & Notifications. Part of the [RDS](../) cheatsheet.
 
 ## To list RDS events
 

@@ -1,6 +1,6 @@
 # Cost by Dimension
 
-> Cost by Dimension. Part of the [CostExplorer](../CostExplorer.md) cheatsheet.
+> Cost by Dimension. Part of the [CostExplorer](../) cheatsheet.
 
 Grouping splits the cost into one bucket per value of the dimension, and each
 bucket appears under `Groups` in every time bucket of the response.

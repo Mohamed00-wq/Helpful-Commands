@@ -1,6 +1,6 @@
 # Services Discovery (Cloud Map)
 
-> Services Discovery (Cloud Map). Part of the [ECS](../ECS.md) cheatsheet.
+> Services Discovery (Cloud Map). Part of the [ECS](../) cheatsheet.
 
 ## To list namespaces
 

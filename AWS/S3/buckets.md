@@ -1,6 +1,6 @@
 # Buckets
 
-> Buckets. Part of the [S3](../S3.md) cheatsheet.
+> Buckets. Part of the [S3](../) cheatsheet.
 
 ## To create a bucket
 

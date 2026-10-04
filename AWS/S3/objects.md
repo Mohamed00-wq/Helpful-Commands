@@ -1,6 +1,6 @@
 # Objects
 
-> Objects. Part of the [S3](../S3.md) cheatsheet.
+> Objects. Part of the [S3](../) cheatsheet.
 
 ## To upload a file
 

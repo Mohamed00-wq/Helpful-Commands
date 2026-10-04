@@ -1,6 +1,6 @@
 # Cache Policies
 
-> Cache Policies. Part of the [CloudFront](../CloudFront.md) cheatsheet.
+> Cache Policies. Part of the [CloudFront](../) cheatsheet.
 
 ## To list all cache policies
 

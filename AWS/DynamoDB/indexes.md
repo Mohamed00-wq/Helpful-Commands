@@ -1,6 +1,6 @@
 # Indexes
 
-> Indexes. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Indexes. Part of the [DynamoDB](../) cheatsheet.
 
 ## To create a table with a global secondary index
 

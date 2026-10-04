@@ -1,6 +1,6 @@
 # Drift Detection
 
-> Drift Detection. Part of the [CloudFormation](../CloudFormation.md) cheatsheet.
+> Drift Detection. Part of the [CloudFormation](../) cheatsheet.
 
 ## To start drift detection
 

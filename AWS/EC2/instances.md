@@ -1,6 +1,6 @@
 # Instances
 
-> Instances. Part of the [EC2](../EC2.md) cheatsheet.
+> Instances. Part of the [EC2](../) cheatsheet.
 
 ## To list all EC2 instances and their details
 

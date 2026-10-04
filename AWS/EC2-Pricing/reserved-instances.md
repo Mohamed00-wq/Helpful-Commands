@@ -1,6 +1,6 @@
 # Reserved Instances
 
-> Reserved Instances. Part of the [EC2-Pricing](../EC2-Pricing.md) cheatsheet.
+> Reserved Instances. Part of the [EC2-Pricing](../) cheatsheet.
 
 ## To list all Reserved Instances
 

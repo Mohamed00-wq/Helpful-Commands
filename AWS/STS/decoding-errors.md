@@ -1,6 +1,6 @@
 # Decoding Errors
 
-> Decoding Errors. Part of the [STS](../STS.md) cheatsheet.
+> Decoding Errors. Part of the [STS](../) cheatsheet.
 
 ## To decode an access denied message
 

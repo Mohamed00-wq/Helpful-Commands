@@ -1,6 +1,6 @@
 # Egress-Only Internet Gateway (IPv6)
 
-> Egress-Only Internet Gateway (IPv6). Part of the [VPC](../VPC.md) cheatsheet.
+> Egress-Only Internet Gateway (IPv6). Part of the [VPC](../) cheatsheet.
 
 ## To create egress-only IGW
 

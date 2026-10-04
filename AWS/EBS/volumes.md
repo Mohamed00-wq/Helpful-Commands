@@ -1,6 +1,6 @@
 # Volumes
 
-> Volumes. Part of the [EBS](../EBS.md) cheatsheet.
+> Volumes. Part of the [EBS](../) cheatsheet.
 
 ## To list all EBS volumes
 

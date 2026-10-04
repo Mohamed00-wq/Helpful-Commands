@@ -1,6 +1,6 @@
 # Event Source Mapping
 
-> Event Source Mapping. Part of the [Lambda](../Lambda.md) cheatsheet.
+> Event Source Mapping. Part of the [Lambda](../) cheatsheet.
 
 ## To list event source mappings
 

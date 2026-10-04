@@ -1,6 +1,6 @@
 # Stack Operations
 
-> Stack Operations. Part of the [CloudFormation](../CloudFormation.md) cheatsheet.
+> Stack Operations. Part of the [CloudFormation](../) cheatsheet.
 
 ## To list active stacks
 

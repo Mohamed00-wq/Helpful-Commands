@@ -1,6 +1,6 @@
 # KMS Encryption/Decryption
 
-> KMS Encryption/Decryption. Part of the [KMS-Secrets](../KMS-Secrets.md) cheatsheet.
+> KMS Encryption/Decryption. Part of the [KMS-Secrets](../) cheatsheet.
 
 ## To encrypt data
 

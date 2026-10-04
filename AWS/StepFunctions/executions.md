@@ -1,6 +1,6 @@
 # Executions
 
-> Executions. Part of the [StepFunctions](../StepFunctions.md) cheatsheet.
+> Executions. Part of the [StepFunctions](../) cheatsheet.
 
 The `--input` value is JSON text, and the workflow sees it as its top level
 input, so the keys of that object are what the first state's `Parameters` block

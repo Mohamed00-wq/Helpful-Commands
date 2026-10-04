@@ -1,6 +1,6 @@
 # Backups
 
-> Backups. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Backups. Part of the [DynamoDB](../) cheatsheet.
 
 ## To take a backup before deleting
 

@@ -1,6 +1,6 @@
 # Describe / Search
 
-> Describe / Search. Part of the [AMI](../AMI.md) cheatsheet.
+> Describe / Search. Part of the [AMI](../) cheatsheet.
 
 ## To list your custom AMIs
 

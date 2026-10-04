@@ -1,6 +1,6 @@
 # KMS Keys
 
-> KMS Keys. Part of the [KMS-Secrets](../KMS-Secrets.md) cheatsheet.
+> KMS Keys. Part of the [KMS-Secrets](../) cheatsheet.
 
 ## To list all KMS keys
 

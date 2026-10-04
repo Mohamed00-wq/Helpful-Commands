@@ -1,6 +1,6 @@
 # Rules (Path / Host-Based Routing)
 
-> Rules (Path / Host-Based Routing). Part of the [ELB](../ELB.md) cheatsheet.
+> Rules (Path / Host-Based Routing). Part of the [ELB](../) cheatsheet.
 
 ## To list rules on a listener
 

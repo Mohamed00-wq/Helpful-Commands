@@ -1,6 +1,6 @@
 # SNS Subscriptions
 
-> SNS Subscriptions. Part of the [SQS-SNS](../SQS-SNS.md) cheatsheet.
+> SNS Subscriptions. Part of the [SQS-SNS](../) cheatsheet.
 
 ## To subscribe by email
 

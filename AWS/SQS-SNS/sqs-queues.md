@@ -1,6 +1,6 @@
 # SQS Queues
 
-> SQS Queues. Part of the [SQS-SNS](../SQS-SNS.md) cheatsheet.
+> SQS Queues. Part of the [SQS-SNS](../) cheatsheet.
 
 ## To list all queues
 

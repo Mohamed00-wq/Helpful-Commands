@@ -1,6 +1,6 @@
 # Pagination
 
-> Pagination. Part of the [DynamoDB](../DynamoDB.md) cheatsheet.
+> Pagination. Part of the [DynamoDB](../) cheatsheet.
 
 `query` and `scan` return at most 1 MB per call and a `LastEvaluatedKey` while
 more data remains. The AWS CLI paginates both automatically, so most scripts

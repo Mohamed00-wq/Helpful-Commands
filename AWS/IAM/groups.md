@@ -1,6 +1,6 @@
 # Groups
 
-> Groups. Part of the [IAM](../IAM.md) cheatsheet.
+> Groups. Part of the [IAM](../) cheatsheet.
 
 ## To list all IAM groups
 

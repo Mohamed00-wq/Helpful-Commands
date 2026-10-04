@@ -1,6 +1,6 @@
 # Listeners (ALB / NLB)
 
-> Listeners (ALB / NLB). Part of the [ELB](../ELB.md) cheatsheet.
+> Listeners (ALB / NLB). Part of the [ELB](../) cheatsheet.
 
 ## To list listeners on a load balancer
 

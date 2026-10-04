@@ -1,6 +1,6 @@
 # Scheduled Actions
 
-> Scheduled Actions. Part of the [ASG](../ASG.md) cheatsheet.
+> Scheduled Actions. Part of the [ASG](../) cheatsheet.
 
 ## To schedule a scaling action
 

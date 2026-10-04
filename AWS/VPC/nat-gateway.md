@@ -1,6 +1,6 @@
 # NAT Gateway
 
-> NAT Gateway. Part of the [VPC](../VPC.md) cheatsheet.
+> NAT Gateway. Part of the [VPC](../) cheatsheet.
 
 ## To list NAT gateways
 

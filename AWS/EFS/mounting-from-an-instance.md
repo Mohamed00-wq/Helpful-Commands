@@ -1,6 +1,6 @@
 # Mounting from an Instance
 
-> Mounting from an Instance. Part of the [EFS](../EFS.md) cheatsheet.
+> Mounting from an Instance. Part of the [EFS](../) cheatsheet.
 
 The mount helper is the `amazon-efs-utils` package, installed with `yum` on
 Amazon Linux and with `apt-get` on Ubuntu. It negotiates TLS and IAM

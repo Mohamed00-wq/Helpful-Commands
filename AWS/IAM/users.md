@@ -1,6 +1,6 @@
 # Users
 
-> Users. Part of the [IAM](../IAM.md) cheatsheet.
+> Users. Part of the [IAM](../) cheatsheet.
 
 ## To list all IAM users
 

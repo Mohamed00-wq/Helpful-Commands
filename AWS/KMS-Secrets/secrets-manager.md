@@ -1,6 +1,6 @@
 # Secrets Manager
 
-> Secrets Manager. Part of the [KMS-Secrets](../KMS-Secrets.md) cheatsheet.
+> Secrets Manager. Part of the [KMS-Secrets](../) cheatsheet.
 
 ## To list all secrets
 

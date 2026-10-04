@@ -1,6 +1,6 @@
 # Aliases
 
-> Aliases. Part of the [StepFunctions](../StepFunctions.md) cheatsheet.
+> Aliases. Part of the [StepFunctions](../) cheatsheet.
 
 An alias is a stable name that points at one version, and moving the alias is
 how a deployment happens without changing the ARN anything calls. An alias can

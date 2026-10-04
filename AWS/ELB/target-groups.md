@@ -1,6 +1,6 @@
 # Target Groups
 
-> Target Groups. Part of the [ELB](../ELB.md) cheatsheet.
+> Target Groups. Part of the [ELB](../) cheatsheet.
 
 ## To list all target groups
 

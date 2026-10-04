@@ -1,6 +1,6 @@
 # File Systems
 
-> File Systems. Part of the [EFS](../EFS.md) cheatsheet.
+> File Systems. Part of the [EFS](../) cheatsheet.
 
 ## To create a file system
 

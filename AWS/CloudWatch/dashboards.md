@@ -1,6 +1,6 @@
 # Dashboards
 
-> Dashboards. Part of the [CloudWatch](../CloudWatch.md) cheatsheet.
+> Dashboards. Part of the [CloudWatch](../) cheatsheet.
 
 ## To list all dashboards
 

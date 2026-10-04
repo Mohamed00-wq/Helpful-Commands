@@ -1,6 +1,6 @@
 # Tags
 
-> Tags. Part of the [EBS](../EBS.md) cheatsheet.
+> Tags. Part of the [EBS](../) cheatsheet.
 
 ## To list all tags
 

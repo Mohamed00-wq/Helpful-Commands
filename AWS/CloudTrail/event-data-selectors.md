@@ -1,6 +1,6 @@
 # Event Data Selectors
 
-> Event Data Selectors. Part of the [CloudTrail](../CloudTrail.md) cheatsheet.
+> Event Data Selectors. Part of the [CloudTrail](../) cheatsheet.
 
 A trail records management events by default. Data events, which are the reads
 and writes on the objects themselves, are opt-in per resource type and cost

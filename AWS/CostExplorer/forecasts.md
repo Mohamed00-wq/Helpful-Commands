@@ -1,6 +1,6 @@
 # Forecasts
 
-> Forecasts. Part of the [CostExplorer](../CostExplorer.md) cheatsheet.
+> Forecasts. Part of the [CostExplorer](../) cheatsheet.
 
 ## To forecast a month's cost
 

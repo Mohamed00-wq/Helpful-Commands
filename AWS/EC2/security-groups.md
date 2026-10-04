@@ -1,6 +1,6 @@
 # Security Groups
 
-> Security Groups. Part of the [EC2](../EC2.md) cheatsheet.
+> Security Groups. Part of the [EC2](../) cheatsheet.
 
 ## To list all security groups
 

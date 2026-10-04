@@ -1,6 +1,6 @@
 # Distributions
 
-> Distributions. Part of the [CloudFront](../CloudFront.md) cheatsheet.
+> Distributions. Part of the [CloudFront](../) cheatsheet.
 
 ## To list all distributions
 

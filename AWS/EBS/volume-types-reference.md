@@ -1,6 +1,6 @@
 # Volume Types Reference
 
-> Volume Types Reference. Part of the [EBS](../EBS.md) cheatsheet.
+> Volume Types Reference. Part of the [EBS](../) cheatsheet.
 
 | Type | Use Case | Max IOPS | Max Throughput |
 | `gp3` | General purpose (latest) | 16,000 | 1,000 MB/s |
